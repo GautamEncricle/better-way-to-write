@@ -22,4 +22,12 @@ const axiosInstance = axios.create({
 //   return Promise.reject(error);
 // });
 
+export const axiosFileInstance = axios.create({
+  baseURL: import.meta.env.VITE_BACKEND_URL || 'http:localhost:3000',
+  timeout: 10000, // 10 seconds timeout
+  headers: {
+    'Content-Type': 'multipart/form-data',
+    },
+}) 
+
 export default axiosInstance;

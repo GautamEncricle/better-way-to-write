@@ -1,12 +1,13 @@
 import authService from "../services/auth.service.js";
 import AppError from "../utils/AppError.js";
-import AppResponse from "../utils/AppResponse.js";
 import catchAsync from "../utils/catchAsync.js";
 import { getCookieOptions } from "../utils/jwt.js";
 import generateAuthTokens from "../services/token.service.js";
 import HTTP_STATUS from "../constants/HttpStatus.js";
 import { redis } from "../lib/redis.js";
+import createResponse from "../utils/createResponse.js";
 
+// --------------------------------------clearUser-------------------------------------
 const sanitizeUser = (user) => {
     console.log("sanitizeUser - input user:", user);
     if (!user) return null;
@@ -25,7 +26,7 @@ const sanitizeUser = (user) => {
     return safeUser;
 };
 
-
+// ---------------------------------singUp----------------------------------------------
 const signupUser = catchAsync(async (req, res) => {
     const { username, email, password } = req.body;
 
@@ -45,9 +46,10 @@ const signupUser = catchAsync(async (req, res) => {
         maxAge: 1000 * 60 * 60 * 24 * 7,
     });
 
-    return new AppResponse(HTTP_STATUS.CREATED, "User registered successfully", user, accessToken);
+    return res.json(createResponse(HTTP_STATUS.CREATED,"User registered successfully", {user, accessToken}))
 });
 
+// ----------------------------------------loginUser---------------------------------------
 const loginUser = catchAsync(async (req, res) => {
     const { email, password } = req.body;
 
@@ -72,9 +74,10 @@ const loginUser = catchAsync(async (req, res) => {
         maxAge: 1000 * 60 * 60 * 24 * 7,
     });
 
-    return new AppResponse(HTTP_STATUS.OK, "User logged in successfully", user, accessToken);
+    return res.json(createResponse(HTTP_STATUS.OK,"User logged in successfully", {user, accessToken}))
 });
 
+// -------------------------------getUser-----------------------------------------------
 const getUser = catchAsync(async (req, res) => {
     const { id, email } = req.params;
 
@@ -89,7 +92,7 @@ const getUser = catchAsync(async (req, res) => {
     }
 
     const user = sanitizeUser(foundUser);
-    return new AppResponse(HTTP_STATUS.OK, "User found successfully", user);
+    return res.json(createResponse(HTTP_STATUS.OK,"User found successfully", user))
 });
 
 const getAllUser = catchAsync(async (req, res) => {
@@ -101,7 +104,7 @@ const getAllUser = catchAsync(async (req, res) => {
     const users = await authService.getAllUser();
     const sanitizedUsers = users.map((user) => sanitizeUser(user));
 
-    return new AppResponse(HTTP_STATUS.OK, "Users fetched successfully", sanitizedUsers);
+    return res.json(createResponse(HTTP_STATUS.OK,"Users fetched successfully", sanitizedUsers))
 });
 
 const deleteUser = catchAsync(async (req, res) => {
@@ -119,7 +122,7 @@ const deleteUser = catchAsync(async (req, res) => {
 
     await redis.del(`refreshToken:${id}`);
 
-    return new AppResponse(HTTP_STATUS.NO_CONTENT, "User deleted successfully");
+    return res.json(createResponse(HTTP_STATUS.NO_CONTENT,"User deleted successfully"))
 });
 
 // ---------------------- Logout User ----------------------
@@ -135,7 +138,7 @@ const logoutUser = catchAsync(async (req, res) => {
     }
 
     res.clearCookie("refreshToken");
-    return new AppResponse(HTTP_STATUS.OK, "User logged out successfully");
+    return res.json(createResponse(HTTP_STATUS.CREATED,"User logged out successfully"));
 });
 
 // ---------------------- Refresh Token Flow ----------------------

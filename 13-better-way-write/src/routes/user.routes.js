@@ -10,7 +10,8 @@ routes.get('/test', (req, res) => {
 })
 routes.post('/signup', signupUser);
 routes.post('/login', loginUser);
-routes.post('/id', deleteUser);
 routes.post('/logout', logoutUser);
+
+routes.delete('/id', deleteUser);
 
 export default routes;
