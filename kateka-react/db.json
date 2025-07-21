@@ -1,0 +1,887 @@
+{
+  "home": {
+    "banner": {
+      "title": "Safari & Wellness Experience",
+      "image": "./src/assets/images/banner-img.webp",
+      "video": "https://www.youtube.com/watch?v=QwYhzm70-rg"
+    },
+    "accommodations": [
+      {
+        "id": 1,
+        "title": "Classic Suite",
+        "keyFacts": ["Key Fact", "Sleeping x", "x Bathrooms"],
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+        "images": [
+          "./src/assets/images/cLassic-suite.webp",
+          "./src/assets/images/cLassic-suite2.webp"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Deluxe Suite",
+        "keyFacts": ["Key Fact", "Sleeping x", "x Bathrooms"],
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+        "images": [
+          "./src/assets/images/deluxe-suite.webp",
+          "./src/assets/images/deluxe-suite2.webp"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Private Villa",
+        "keyFacts": ["Key Fact", "Sleeping x", "x Bathrooms"],
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+        "images": [
+          "./src/assets/images/private-villa.webp",
+          "./src/assets/images/private-villa2.webp"
+        ]
+      }
+    ],
+    "discover": {
+      "title": "Discover more at kateka",
+      "sections": [
+        {
+          "title": "Wellness",
+          "image": "./src/assets/images/wellness.webp",
+          "link": "#"
+        },
+        {
+          "title": "Safari",
+          "image": "./src/assets/images/safari.webp",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "About Ipsum Dolor Sit Amet",
+    "content": "We are passionate about introducing guests from all over the world to Kateka, our five-star home. We would love for you to come and discover a wilderness meets wellness experience where our love for hospitality is evident. Whether it's the wildlife you encounter, the people you meet during your stay, the facilities on offer or simply all of it, our hope for every guest is to leave feeling like members of the family and not wanting to leave!"
+  },
+  "stay": {},
+  "safari": {
+    "banner": {
+      "title": "Safari",
+      "image": "./src/assets/images/safari-banner.webp"
+    },
+    "commonContent": {
+      "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+    },
+    "safari": {
+      "title": "Safari",
+      "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+      "image": "./src/assets/images/safari-img.webp"
+    },
+    "experiences": {
+      "title": "Safari Experiences",
+      "slides": [
+        {
+          "id": 1,
+          "title": "Safari Experiences",
+          "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "image": "./src/assets/images/safari-experiences-img2.webp",
+          "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "textColor": "white"
+        },
+        {
+          "id": 2,
+          "title": "Outdoor Yoga",
+          "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "image": "./src/assets/images/Outdoor-Yoga.webp",
+          "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "textColor": "gray"
+        },
+        {
+          "id": 3,
+          "title": "Experience Name",
+          "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "image": "./src/assets/images/experience-name.webp",
+          "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "textColor": "white"
+        }
+      ]
+    },
+    "conservation": {
+      "title": "Conservation and sustainability sit amet",
+      "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+      "video": "./src/assets/images/KatekaSafari-Wellness-Experience.mp4",
+      "backgroundImage": "./src/assets/images/tree-bg2.svg"
+    },
+    "guidingTeam": {
+      "title": "Our Guiding Team",
+      "image": "./src/assets/images/our-team.webp",
+      "members": [
+        {
+          "id": 1,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip1"
+        },
+        {
+          "id": 2,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip2"
+        },
+        {
+          "id": 3,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip3"
+        },
+        {
+          "id": 4,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip4"
+        },
+        {
+          "id": 5,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip5"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "info": {
+      "title": "GENERAL CONTACT",
+      "email": "reception@kateka.co.za",
+      "whatsappNumber": "21798417685",
+      "whatsappDisplay": "+21 79 841 7685",
+      "whatsappNote": "(calls & messages only)",
+      "address": "Kateka\nHoedspruit, Limpopo\nSouth Africa",
+      "additionalInfo": "Our team is available 24/7 to assist with your safari and wellness experience enquiries."
+    },
+    "formSection": {
+      "title": "Stay With Us",
+      "description": "Ready to experience the perfect blend of safari adventure and wellness retreat? Get in touch with us to plan your unforgettable journey at Kateka."
+    }
+  },
+  "campaign": {
+    "banner": {
+      "preheading": "KICKER ABOUT PROPERTY",
+      "title": "LOREM IPSUM DOLOR",
+      "location": "Location, Region",
+      "image": "./src/assets/images/campaignlp-banner.webp"
+    },
+    "usps": [
+      {
+        "id": 1,
+        "icon": "./src/assets/images/usp1.svg",
+        "title": "USP 1"
+      },
+      {
+        "id": 2,
+        "icon": "./src/assets/images/usp2.svg",
+        "title": "USP 2"
+      },
+      {
+        "id": 3,
+        "icon": "./src/assets/images/usp3.svg",
+        "title": "USP 3"
+      },
+      {
+        "id": 4,
+        "icon": "./src/assets/images/usp4.svg",
+        "title": "USP 4"
+      }
+    ],
+    "generalContent": {
+      "title": "Lorem ipsum dolor sit amet, consecteturd do.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu.",
+      "validity": "Valid until x date",
+      "price": "FROM RX, XXX per person per night",
+      "enquireLink": "#",
+      "bookNowLink": "#"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "feature 1",
+        "image": "./src/assets/images/feature1.webp",
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+      },
+      {
+        "id": 2,
+        "title": "feature 2",
+        "image": "./src/assets/images/feature2.webp",
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation"
+      }
+    ],
+    "sliderSection": {
+      "slides": [
+        {
+          "id": 1,
+          "title": "Safari Experiences",
+          "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "image": "./src/assets/images/safari-experiences-img2.webp",
+          "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "textColor": "white"
+        },
+        {
+          "id": 2,
+          "title": "Outdoor Yoga",
+          "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "image": "./src/assets/images/Outdoor-Yoga.webp",
+          "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "textColor": "gray"
+        },
+        {
+          "id": 3,
+          "title": "Experience Name",
+          "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "image": "./src/assets/images/experience-name.webp",
+          "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+          "textColor": "white"
+        }
+      ]
+    },
+    "conservationSection": {
+      "title": "Conservation and sustainability sit amet",
+      "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+      "video": "./src/assets/images/KatekaSafari-Wellness-Experience.mp4",
+      "backgroundImage": "./src/assets/images/tree-bg2.svg",
+      "link": "#",
+      "buttonText": "LEARN MORE"
+    },
+    "guidingTeamSection": {
+      "title": "Our Guiding Team",
+      "image": "./src/assets/images/our-team.webp",
+      "members": [
+        {
+          "id": 1,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip1"
+        },
+        {
+          "id": 2,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip2"
+        },
+        {
+          "id": 3,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip3"
+        },
+        {
+          "id": 4,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip4"
+        },
+        {
+          "id": 5,
+          "name": "Name Surname",
+          "jobTitle": "job Title",
+          "position": "tooltip5"
+        }
+      ]
+    }
+  },
+  "blog": {
+    "banner": {
+      "title": "Blogs"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "Lorem ipsum dolor sit amet consecteturd",
+        "image": "./src/assets/images/blog-img.webp",
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+        "link": "#",
+        "buttonText": "READ"
+      },
+      {
+        "id": 2,
+        "title": "Lorem ipsum dolor sit amet consecteturd",
+        "image": "./src/assets/images/blog-img2.webp",
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+        "link": "#",
+        "buttonText": "READ"
+      },
+      {
+        "id": 3,
+        "title": "Lorem ipsum dolor sit amet consecteturd",
+        "image": "./src/assets/images/blog-img3.webp",
+        "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+        "link": "#",
+        "buttonText": "READ"
+      }
+    ]
+  },
+  "location": {
+    "banner": {},
+    "commonContent": {
+      "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+    },
+    "facilityMap": {
+      "image": "./src/assets/images/about-us.webp",
+      "facilities": [
+        {
+          "id": 1,
+          "name": "Reception",
+          "position": "tooltip1"
+        },
+        {
+          "id": 2,
+          "name": "Restaurant",
+          "position": "tooltip2"
+        },
+        {
+          "id": 3,
+          "name": "Spa & Wellness",
+          "position": "tooltip3"
+        },
+        {
+          "id": 4,
+          "name": "Pool Area",
+          "position": "tooltip4"
+        },
+        {
+          "id": 5,
+          "name": "Safari Lounge",
+          "position": "tooltip5"
+        },
+        {
+          "id": 6,
+          "name": "Gift Shop",
+          "position": "tooltip6"
+        },
+        {
+          "id": 7,
+          "name": "Conference Room",
+          "position": "tooltip7"
+        },
+        {
+          "id": 8,
+          "name": "Library",
+          "position": "tooltip8"
+        },
+        {
+          "id": 9,
+          "name": "Observation Deck",
+          "position": "tooltip9"
+        }
+      ]
+    },
+    "directions": {
+      "title": "How To Get There",
+      "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+      "instructions": [
+        "Fly into OR Tambo International Airport, Johannesburg",
+        "Take connecting flight to Hoedspruit Airport (45 minutes)",
+        "Road transfer to Kateka (30 minutes drive)"
+      ],
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4022.335124490098!2d31.29624307584952!3d-24.221528086178242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ec323fae9cbd7ab%3A0x90a3727643d2e539!2sKateka%20Safari%20and%20Wellness!5e1!3m2!1sen!2sin!4v1747131808885!5m2!1sen!2sin",
+      "mapDownloadLink": "#",
+      "mapButtonText": "DOWNLOAD MAP",
+      "backgroundImage": "./src/assets/images/tree-bg2.svg"
+    }
+  },
+  "offers": [
+    {
+      "title": "STAY LONGER FOR LESS",
+      "description": "Lorem ipsum dolor sit amet consectetur. Ullamcorper quam pellentesque porttitor nisi quis bibendum tristique consequat orci. Ut suspendisse enim egestas ac.",
+      "link": "#"
+    },
+    {
+      "title": "15% OFF ONLINE BOOKINGS",
+      "description": "Lorem ipsum dolor sit amet consectetur. Ullamcorper quam pellentesque porttitor nisi quis bibendum tristique consequat orci. Ut suspendisse enim egestas ac.",
+      "link": "#"
+    },
+    {
+      "title": "FAMILY FUN",
+      "description": "Lorem ipsum dolor sit amet consectetur. Ullamcorper quam pellentesque porttitor nisi quis bibendum tristique consequat orci. Ut suspendisse enim egestas ac.",
+      "link": "#"
+    }
+  ],
+  "rates": {
+    "banner": {
+      "title": "Rates"
+    },
+    "years": [
+      {
+        "id": "year1",
+        "year": "2025"
+      },
+      {
+        "id": "year2",
+        "year": "2026"
+      }
+    ],
+    "data": {
+      "year1": {
+        "validityText": "RATES VALID UNTIL 5TH JANUARY 2026",
+        "seasons": [
+          {
+            "name": "Peak Season Rates",
+            "dates": ["10 Feb - 30 Apr; 01 July- 05 Sept;", "15 Oct - 05 Nov; 11 Dec - 05 Jan"],
+            "dailyRate": "138,600 ZAR",
+            "additionalPersonRate": "34,650 ZAR",
+            "childRate": "17,325 ZAR"
+          },
+          {
+            "name": "Standard Season Rates",
+            "dates": ["06 Jan - 09 Feb; 01 May - 30 Jun;", "06 Sept - 14 Oct; 06 Nov - 10 Dec"],
+            "dailyRate": "92,400 ZAR",
+            "additionalPersonRate": "23,100 ZAR",
+            "childRate": "11,550 ZAR"
+          }
+        ],
+        "premiumDates": {
+          "title": "Premium DATES (20 Dec - 1 Jan)",
+          "description": "Rates plus additional 50,000 ZAR will be charged, per night, during this period."
+        },
+        "pdfDownloadLink": "#",
+        "pdfButtonText": "DOWNLOAD RATES PDF"
+      },
+      "year2": {
+        "validityText": "RATES VALID UNTIL 5TH JANUARY 2027",
+        "seasons": [
+          {
+            "name": "Peak Season Rates",
+            "dates": ["10 Feb - 30 Apr; 01 July- 05 Sept;", "15 Oct - 05 Nov; 11 Dec - 05 Jan"],
+            "dailyRate": "145,530 ZAR",
+            "additionalPersonRate": "36,383 ZAR",
+            "childRate": "18,191 ZAR"
+          },
+          {
+            "name": "Standard Season Rates",
+            "dates": ["06 Jan - 09 Feb; 01 May - 30 Jun;", "06 Sept - 14 Oct; 06 Nov - 10 Dec"],
+            "dailyRate": "97,020 ZAR",
+            "additionalPersonRate": "24,255 ZAR",
+            "childRate": "12,128 ZAR"
+          }
+        ],
+        "premiumDates": {
+          "title": "Premium DATES (20 Dec - 1 Jan)",
+          "description": "Rates plus additional 52,500 ZAR will be charged, per night, during this period."
+        },
+        "pdfDownloadLink": "#",
+        "pdfButtonText": "DOWNLOAD RATES PDF"
+      }
+    },
+    "additionalInfo": [
+      {
+        "id": 1,
+        "title": "INCLUSIONS",
+        "content": "All meals and beverages (excluding premium wines and spirits), accommodation in luxury suites, daily game drives with professional guides, spa treatments, airport transfers, and all conservation fees."
+      },
+      {
+        "id": 2,
+        "title": "EXCLUSIONS",
+        "content": "International flights, travel insurance, premium alcoholic beverages, personal expenses, gratuities, and any activities not specified in the inclusions."
+      },
+      {
+        "id": 3,
+        "title": "TERMS & CONDITIONS",
+        "content": "All rates are subject to availability and may change without notice. A 50% deposit is required to secure your booking. Full payment is due 30 days prior to arrival. Cancellation fees apply as per our cancellation policy."
+      }
+    ]
+  },
+  "dining": {
+    "banner": {
+      "title": "Dining",
+      "image": "./src/assets/images/dining-banner.webp"
+    },
+    "commonContent": {
+      "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "backgroundImage": "./src/assets/images/tree-bg4.svg"
+    },
+    "gallerySlider": {
+      "images": [
+        "./src/assets/images/gallery-img3.webp",
+        "./src/assets/images/gallery-img2.webp",
+        "./src/assets/images/dining-restaurant.webp",
+        "./src/assets/images/dining-outdoor.webp"
+      ]
+    },
+    "menuSection": {
+      "title": "Menu",
+      "keyFacts": [
+        "Locally Sourced Ingredients",
+        "International & African Cuisine",
+        "Dietary Requirements Catered"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+      "primaryImage": "./src/assets/images/dining-menu1.webp",
+      "secondaryImage": "./src/assets/images/private-villa2.webp",
+      "tertiaryImage": "./src/assets/images/1-164.webp",
+      "menuDownloadLink": "#",
+      "menuButtonText": "DOWNLOAD MENU"
+    },
+    "options": [
+      {
+        "id": 1,
+        "title": "Fine Dining Restaurant",
+        "keyFacts": ["Indoor & Outdoor Seating", "Chef's Tasting Menu", "Wine Pairing Available"],
+        "description": "Experience exquisite cuisine in our elegant restaurant overlooking the African wilderness. Our chef creates memorable dishes using the finest local and international ingredients.",
+        "primaryImage": "./src/assets/images/cLassic-suite.webp",
+        "secondaryImage": "./src/assets/images/cLassic-suite2.webp"
+      },
+      {
+        "id": 2,
+        "title": "Bush Dining Experience",
+        "keyFacts": ["Under the Stars", "Traditional African Cuisine", "Private Setting"],
+        "description": "Dine under the vast African sky with our unique bush dining experience. Enjoy traditional flavors while listening to the sounds of the wilderness.",
+        "primaryImage": "./src/assets/images/dining-bush.webp",
+        "secondaryImage": "./src/assets/images/dining-bush2.webp"
+      },
+      {
+        "id": 3,
+        "title": "Poolside Bar & Grill",
+        "keyFacts": ["Casual Dining", "Refreshing Cocktails", "Light Meals & Snacks"],
+        "description": "Relax by the pool with light meals, refreshing drinks, and stunning views. Perfect for a casual lunch or sunset cocktails.",
+        "primaryImage": "./src/assets/images/dining-poolside.webp",
+        "secondaryImage": "./src/assets/images/dining-poolside2.webp"
+      }
+    ],
+    "discover": {
+      "title": "Discover more at kateka",
+      "sections": [
+        {
+          "title": "Wellness",
+          "image": "./src/assets/images/wellness.webp",
+          "link": "#"
+        },
+        {
+          "title": "Safari",
+          "image": "./src/assets/images/safari.webp",
+          "link": "#"
+        }
+      ]
+    }
+  },
+  "facilities": {},
+  "conservation": {
+    "title": "Conservation and sustainability sit amet",
+    "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt.",
+    "video": "./src/assets/images/KatekaSafari-Wellness-Experience.mp4",
+    "backgroundImage": "./src/assets/images/tree-bg2.svg"
+  },
+  "gallery": {
+    "commonContent": {
+      "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Accommodation",
+        "value": "accommodation"
+      },
+      {
+        "id": 2,
+        "name": "Safari",
+        "value": "safari"
+      },
+      {
+        "id": 3,
+        "name": "Wellness",
+        "value": "wellness"
+      }
+    ],
+    "items": [
+      {
+        "id": 1,
+        "src": "./src/assets/images/gallery-img5.webp",
+        "type": "image",
+        "category": "accommodation",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 2,
+        "src": "./src/assets/images/gallery-img6.webp",
+        "type": "image",
+        "category": "safari",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 3,
+        "src": "./src/assets/images/gallery-img7.webp",
+        "type": "image",
+        "category": "wellness",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 4,
+        "src": "./src/assets/images/KatekaSafari-Wellness-Experience.mp4",
+        "type": "video",
+        "category": "accommodation",
+        "alt": "Gallery Video"
+      },
+      {
+        "id": 5,
+        "src": "./src/assets/images/gallery-img10.webp",
+        "type": "image",
+        "category": "wellness",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 6,
+        "src": "./src/assets/images/gallery-img8.webp",
+        "type": "image",
+        "category": "safari",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 7,
+        "src": "./src/assets/images/gallery-img11.webp",
+        "type": "image",
+        "category": "accommodation",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 8,
+        "src": "./src/assets/images/gallery-img12.webp",
+        "type": "image",
+        "category": "accommodation",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 9,
+        "src": "./src/assets/images/gallery-img13.webp",
+        "type": "image",
+        "category": "safari",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 10,
+        "src": "./src/assets/images/gallery-img14.webp",
+        "type": "image",
+        "category": "accommodation",
+        "alt": "Gallery Image"
+      },
+      {
+        "id": 11,
+        "src": "./src/assets/images/gallery-img15.webp",
+        "type": "image",
+        "category": "wellness",
+        "alt": "Gallery Image"
+      }
+    ],
+    "teamData": {
+      "title": "Meet The Team",
+      "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad."
+    },
+    "teamMembers": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "jobTitle": "Safari Guide",
+        "image": "./src/assets/images/team1.webp"
+      },
+      {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "jobTitle": "Wellness Coordinator",
+        "image": "./src/assets/images/team2.webp"
+      },
+      {
+        "id": 3,
+        "name": "Michael Brown",
+        "jobTitle": "Head Chef",
+        "image": "./src/assets/images/team3.webp"
+      },
+      {
+        "id": 4,
+        "name": "Emma Wilson",
+        "jobTitle": "Guest Relations",
+        "image": "./src/assets/images/team4.webp"
+      },
+      {
+        "id": 5,
+        "name": "David Lee",
+        "jobTitle": "Conservation Manager",
+        "image": "./src/assets/images/team5.webp"
+      },
+      {
+        "id": 6,
+        "name": "Lisa Davis",
+        "jobTitle": "Spa Therapist",
+        "image": "./src/assets/images/team6.webp"
+      },
+      {
+        "id": 7,
+        "name": "James Miller",
+        "jobTitle": "Activities Coordinator",
+        "image": "./src/assets/images/team7.webp"
+      },
+      {
+        "id": 8,
+        "name": "Anna Garcia",
+        "jobTitle": "Hospitality Manager",
+        "image": "./src/assets/images/team8.webp"
+      },
+      {
+        "id": 9,
+        "name": "Robert Taylor",
+        "jobTitle": "Wildlife Expert",
+        "image": "./src/assets/images/team9.webp"
+      },
+      {
+        "id": 10,
+        "name": "Jennifer White",
+        "jobTitle": "Yoga Instructor",
+        "image": "./src/assets/images/team10.webp"
+      },
+      {
+        "id": 11,
+        "name": "Thomas Anderson",
+        "jobTitle": "Lodge Manager",
+        "image": "./src/assets/images/team11.webp"
+      },
+      {
+        "id": 12,
+        "name": "Maria Rodriguez",
+        "jobTitle": "Cultural Guide",
+        "image": "./src/assets/images/team12.webp"
+      }
+    ]
+  },
+  "stay-single": {
+    "banner": {
+      "title": "Stay Name",
+      "image": "./src/assets/images/stay-single-banner.webp"
+    },
+    "commonContent": {
+      "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+      "treeBgImage": "./src/assets/images/tree-bg2.svg"
+    },
+    "iconGrid": {
+      "buttonText": "SEE MORE FACILITIES",
+      "buttonLink": "#",
+      "items": [
+        {
+          "icon": "./src/assets/images/service-offering-icon1.svg",
+          "title": "Service Offering"
+        },
+        {
+          "icon": "./src/assets/images/service-offering-icon2.svg",
+          "title": "Service Offering"
+        },
+        {
+          "icon": "./src/assets/images/service-offering-icon3.svg",
+          "title": "Service Offering"
+        },
+        {
+          "icon": "./src/assets/images/service-offering-icon4.svg",
+          "title": "Service Offering"
+        },
+        {
+          "icon": "./src/assets/images/service-offering-icon5.svg",
+          "title": "Service Offering"
+        },
+        {
+          "icon": "./src/assets/images/service-offering-icon6.svg",
+          "title": "Service Offering"
+        }
+      ]
+    },
+    "gallery": {
+      "images": ["./src/assets/images/gallery-img1.webp", "./src/assets/images/gallery-img2.webp"]
+    },
+    "availability": {
+      "title": "Book With Us Now"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "join our newsletter",
+      "content": "Lorem ipsum dolor sit amet consectetur."
+    },
+    "links": {
+      "top": ["HOME", "STAY", "SAFARI", "WELLNESS", "EXPERIENCES", "OFFERS"],
+      "bottom": [
+        "ABOUT US",
+        "DINING",
+        "CONSERVATION",
+        "FACILITIES",
+        "LOCATION",
+        "BLOG",
+        "RATES",
+        "GALLERY"
+      ],
+      "social": ["Facebook", "Instagram"]
+    },
+    "copyright": "© 2025 Kateka. All rights reserved.",
+    "terms": "Terms",
+    "privacy": "Privacy"
+  },
+  "dining-menu-section": {
+    "title": "Menu",
+    "keyFacts": [
+      "Locally Sourced Ingredients",
+      "International & African Cuisine",
+      "Dietary Requirements Catered"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.",
+    "primaryImage": "./src/assets/images/dining-menu1.webp",
+    "secondaryImage": "./src/assets/images/private-villa2.webp",
+    "tertiaryImage": "./src/assets/images/1-164.webp",
+    "menuDownloadLink": "#",
+    "menuButtonText": "DOWNLOAD MENU"
+  },
+  "testimonials": [
+    {
+      "message": "An unforgettable safari experience. The guides were amazing!",
+      "name": "Alice",
+      "country": "UK"
+    },
+    {
+      "message": "We saw all the Big Five and enjoyed luxurious accommodations.",
+      "name": "Raj",
+      "country": "India"
+    },
+    {
+      "message": "I felt completely immersed in nature with top-class service.",
+      "name": "Maya",
+      "country": "USA"
+    }
+  ],
+  "safari-common-content": {
+    "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+  },
+  "dining-discover": {
+    "title": "Discover more at kateka",
+    "sections": [
+      {
+        "title": "Wellness",
+        "image": "./src/assets/images/wellness.webp",
+        "link": "#"
+      },
+      {
+        "title": "Safari",
+        "image": "./src/assets/images/safari.webp",
+        "link": "#"
+      }
+    ]
+  },
+  "gallery-common-content": {
+    "title": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation."
+  },
+  "wellness": {
+    "title": "Wellness",
+    "content": "Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation Lorem ipsum dolor sit amet, consecteturd do eiusmod tempor incididunt veniam.",
+    "images": ["./src/assets/images/wellness-img1.webp", "./src/assets/images/wellness-img2.webp"]
+  },
+  "faq": {
+    "questions": [
+      {
+        "question": "What is the check-in time?",
+        "answer": "Check-in is from 3 PM onwards."
+      },
+      {
+        "question": "Is breakfast included?",
+        "answer": "Yes, breakfast is included with your stay."
+      },
+      {
+        "question": "Do you offer airport transfers?",
+        "answer": "Yes, airport transfers can be arranged upon request."
+      }
+    ]
+  }
+}

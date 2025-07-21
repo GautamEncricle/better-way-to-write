@@ -1,0 +1,93 @@
+body {
+  @apply font-body m-0 p-0;
+}
+
+.container-fluid {
+  @apply px-80 max-1365:px-40 max-1023:px-20;
+}
+.container-fluid-md {
+  @apply px-110 max-1365:px-40 max-1023:px-20;
+}
+.container-fluid-lg {
+  @apply px-180 max-1365:px-40 max-1023:px-20;
+}
+a,
+a:hover {
+  @apply transition-all duration-300 no-underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading tracking-05 antialiased;
+}
+
+h1,
+.h1 {
+  @apply text-headingBig-1 max-767:text-[34px];
+}
+h1 span:first-letter {
+  @apply text-[70px] max-767:text-[50px];
+}
+h2,
+.h2 {
+  @apply text-heading-2 leading-50 max-1023:text-[30px] max-1023:leading-[40px];
+}
+h2 span:first-letter {
+  @apply text-heading-1 max-1023:text-[38px] antialiased;
+}
+/* h2 span::first-letter, .h2 span::first-letter {
+  @apply text-heading-1 max-1023:text-[38px];
+} */
+h3,
+.h3 {
+  @apply text-heading-3 max-767:text-24;
+}
+h3:first-letter,
+.h3:first-letter {
+  @apply text-heading-2 max-767:text-[36px];
+}
+h4,
+.h4 {
+  @apply text-heading-4 leading-30;
+}
+h5,
+.h5 {
+  @apply text-heading-5 leading-26;
+}
+h6,
+.h6 {
+  @apply text-heading-6 leading-24;
+}
+
+p {
+  @apply text-body-3 tracking-05 font-extralight;
+}
+
+.content p {
+  @apply mt-15;
+}
+.content p:first-child {
+  @apply mt-0;
+}
+.content.white p {
+  @apply text-white;
+}
+.content.gray p {
+  @apply text-gray;
+}
+.content.lightfont p {
+  @apply font-extralight antialiased;
+}
+.global-list li {
+  @apply relative pl-20;
+}
+.global-list li::before {
+  @apply content-[''] absolute top-10 left-0 w-5 h-5 bg-white/50 rounded-full;
+}
+.global-list-white li {
+  @apply text-white antialiased font-extralight;
+}

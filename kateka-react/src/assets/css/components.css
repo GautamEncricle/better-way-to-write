@@ -1,0 +1,134 @@
+/* Button Css */
+.btn {
+  @apply flex flex-wrap items-center gap-x-15 text-body-4 tracking-02 px-20 py-10 font-semibold uppercase w-fit;
+}
+.btn-link {
+  @apply flex flex-wrap gap-x-15 pl-25 relative text-black hover:gap-x-13;
+}
+.btn-link span {
+  @apply absolute left-0 top-11;
+}
+.btn-link img {
+  @apply scale-80;
+}
+.btn-link:hover img {
+  @apply scale-100;
+}
+.btn-link-white {
+  @apply flex flex-wrap gap-x-15 pl-25 text-white hover:gap-x-13;
+}
+.btn-link-white img {
+  filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(300deg) brightness(103%) contrast(101%);
+}
+.btn-olive {
+  @apply bg-olive border-olive rounded-10 hover:text-olive border-1 border-solid text-white italic hover:bg-transparent;
+}
+.btn-olive:hover img {
+  @apply invert;
+}
+.btn-white {
+  @apply bg-white border-white rounded-10 hover:text-white border-1 border-solid text-black italic hover:bg-black;
+}
+.btn-gray {
+  @apply border-gray rounded-10 hover:text-white border-1 border-solid text-black italic hover:bg-olive;
+}
+/* .btn-link:hover img {
+    @apply relative -left-5 transition-all duration-300;
+} */
+.img-ratio {
+  @apply absolute inset-0 h-full w-full object-cover;
+}
+.img-266-266 {
+  @apply pt-[100%];
+}
+.img-476-529 {
+  @apply pt-[30.13%];
+}
+.img-495-491 {
+  @apply pt-[99.13%];
+}
+.img-598-451 {
+  @apply pt-[75.42%];
+}
+.img-503-286 {
+  @apply pt-[56.86%] max-767:pt-[40.00%];
+}
+
+.title-olive h1,
+.title-olive h2,
+.title-olive h3,
+.title-olive h4,
+.title-olive h5,
+.title-olive h6 {
+  @apply text-olive;
+}
+.title-gray h1,
+.title-gray h2,
+.title-gray h3,
+.title-gray h4,
+.title-gray h5,
+.title-gray h6 {
+  @apply text-gray-200;
+}
+.title-white h1,
+.title-white h2,
+.title-white h3,
+.title-white h4,
+.title-white h5,
+.title-white h6 {
+  @apply text-white;
+}
+.title-black h1,
+.title-black h2,
+.title-black h3,
+.title-black h4,
+.title-black h5,
+.title-black h6 {
+  @apply text-black;
+}
+.bg-tree {
+  @apply bg-[url('../assets/images/tree-bg.png')] bg-cover;
+}
+/* .bg-tree2 {
+  @apply bg-[url('../assets/images/tree-bg2.svg')] bg-cover;
+} */
+/* .bg-tree-img::before {
+  @apply content-[''] absolute top-0 left-0 w-full h-274 bg-gradient-to-b from-gray from-0% to-transparent to-70%;
+}
+.bg-tree-img::after {
+  @apply content-[''] absolute bottom-0 left-0 w-full h-274 bg-gradient-to-t from-gray from-0% to-transparent to-70%;
+} */
+
+.content-listing ul {
+  @apply flex flex-wrap gap-x-20;
+}
+.content-listing ul li {
+  @apply text-body-4 uppercase tracking-01 relative;
+}
+.content-listing ul li::before {
+  @apply content-[''] absolute top-4 -right-10 w-1 h-12 bg-black;
+}
+.content-listing ul li:last-child::before {
+  @apply hidden;
+}
+.swiper-custom-arrow .swiper-arrow {
+  @apply w-68 max-767:w-48 h-68 max-767:h-48 relative m-0 left-auto right-auto border-1 border-solid border-white rounded-10 flex items-center justify-center hover:bg-gray/20;
+}
+.swiper-arrow::after {
+  @apply !hidden;
+}
+.swiper-pagination span {
+  @apply text-[100px] max-1023:text-[50px] font-heading text-white/20 text-left tracking-05;
+}
+.swiper-pagination span.swiper-pagination-current {
+  @apply text-white/100;
+}
+.global-list ul li {
+  @apply font-extralight relative;
+}
+.global-list ul li::before {
+  @apply content-[''] absolute top-8 left-0 w-5 h-5 bg-black2 rounded-full;
+}
+.preheading span {
+  @apply font-semibold tracking-02 text-body-4;
+}

@@ -1,0 +1,120 @@
+@layer base, components, utilities;
+@import 'tailwindcss';
+@import './base.css';
+@import './components.css';
+@import './utlities.css';
+@import './layout.css';
+
+/* Custom Theme Variables */
+@theme {
+  --font-body: 'Source Sans Pro', sans-serif;
+  --font-heading: 'Aboreto', serif;
+
+  --color-white: #fff;
+  --color-gray: #fff;
+  --color-primary: #000;
+  --color-black2: #302d2b;
+  --color-olive: #4b4537;
+
+  --breakpoint-1499: 1499px;
+  --breakpoint-1439: 1439px;
+  --breakpoint-1365: 1365px;
+  --breakpoint-1199: 1199px;
+  --breakpoint-1023: 1023px;
+  --breakpoint-992: 992px;
+  --breakpoint-767: 767px;
+  --breakpoint-639: 639px;
+  --breakpoint-575: 575px;
+  --breakpoint-479: 479px;
+
+  --radius-10: 10px;
+  --spacing: 1px;
+
+  --tracking-01: 0.1em;
+  --tracking-02: 0.2em;
+  --tracking-05: 0.05em;
+  --tracking-15: 0.15em;
+
+  --text-body-1: 20px;
+  --text-body-2: 18px;
+  --text-body-3: 16px;
+  --text-body-4: 14px;
+  --text-body-5: 12px;
+
+  --text-heading-1: 50px;
+  --text-headingBig-1: 60px;
+  --text-heading-2: 40px;
+  --text-heading-3: 30px;
+  --text-heading-4: 28px;
+  --text-heading-5: 24px;
+  --text-heading-6: 20px;
+
+  --text-24: 24px;
+  --text-32: 32px;
+  --text-36: 36px;
+
+  --drop-shadow-card: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  --drop-shadow-card2: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Font Faces */
+
+@font-face {
+  font-family: 'Aboreto';
+  src:
+    url('/fonts/Aboreto-Regular.woff2') format('woff2'),
+    url('/fonts/Aboreto-Regular.woff') format('woff'),
+    url('/fonts/Aboreto-Regular.ttf') format('truetype'),
+    url('/fonts/Aboreto-Regular.eot');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src:
+    url('/fonts/SourceSansPro-ExtraLight.woff2') format('woff2'),
+    url('/fonts/SourceSansPro-ExtraLight.woff') format('woff'),
+    url('/fonts/SourceSansPro-ExtraLight.ttf') format('truetype'),
+    url('/fonts/SourceSansPro-ExtraLight.eot');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src:
+    url('/fonts/SourceSansPro-Light.woff2') format('woff2'),
+    url('/fonts/SourceSansPro-Light.woff') format('woff'),
+    url('/fonts/SourceSansPro-Light.ttf') format('truetype'),
+    url('/fonts/SourceSansPro-Light.eot');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src:
+    url('/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+    url('/fonts/SourceSansPro-Regular.woff') format('woff'),
+    url('/fonts/SourceSansPro-Regular.ttf') format('truetype'),
+    url('/fonts/SourceSansPro-Regular.eot');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src:
+    url('/fonts/SourceSansPro-Semibold.woff2') format('woff2'),
+    url('/fonts/SourceSansPro-Semibold.woff') format('woff'),
+    url('/fonts/SourceSansPro-Semibold.ttf') format('truetype'),
+    url('/fonts/SourceSansPro-Semibold.eot');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

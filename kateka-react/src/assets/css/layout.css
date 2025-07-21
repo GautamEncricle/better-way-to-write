@@ -1,0 +1,159 @@
+/* Header Css */
+.header .top-navbar ul li a {
+  @apply text-body-4 tracking-15 hover:italic text-black uppercase;
+}
+.sticky-header .header-top {
+  @apply bg-olive/66 py-20;
+}
+.sticky-header .sticky-logo {
+  @apply block;
+}
+.sticky-header .menu-icon svg rect {
+  @apply fill-white;
+}
+.sticky-header .top-navbar ul li a {
+  @apply text-white;
+}
+.sticky-header .btn-link {
+  @apply text-white;
+}
+.sticky-header .btn-link img {
+  filter: invert(100%) sepia(0%) saturate(7436%) hue-rotate(96deg) brightness(101%) contrast(104%);
+}
+.sticky-header .btn-olive {
+  @apply bg-white text-black border-white border-1 border-solid hover:bg-olive hover:text-white;
+}
+.sticky-header .logo {
+  @apply fixed w-full z-9 top-10;
+}
+.sticky-header .mobile-logo {
+  @apply hidden;
+}
+.sticky-header .header-top-right ul {
+  @apply max-1199:hidden;
+}
+.inner-header .sticky-logo {
+  @apply block max-1023:hidden;
+}
+.inner-header .sticky-logo img {
+  @apply invert-100 max-w-194;
+}
+.sticky-header .inner-header .sticky-logo img {
+  @apply filter-[inherit];
+}
+/* .sticky-header {
+  @apply bg-gray fixed z-9 w-full;
+}
+.sticky-header .logo {
+  @apply pt-40;
+} */
+/* Menu Open Start */
+.main-nav {
+  @apply pointer-events-none fixed top-0 left-0 z-999 h-dvh w-full overflow-hidden p-20 max-1023:px-0;
+}
+.main-nav .mainnav-menu-left ul li a {
+  @apply text-heading-1 max-1365:text-[40px] max-992:text-[40px] max-767:text-24 tracking-01 font-heading relative text-white uppercase hover:pl-25;
+}
+.main-nav .mainnav-menu-left ul li a:hover:before {
+  @apply absolute top-15 left-0 h-19 w-23 bg-[url('../assets/images/link-arrow.svg')] bg-contain bg-no-repeat content-[''];
+  filter: invert(100%) sepia(0%) saturate(7436%) hue-rotate(96deg) brightness(101%) contrast(104%);
+}
+.main-nav .mainnav-btm ul li a {
+  @apply text-body-1 max-992:text-body-4 tracking-15 font-body font-normal text-white uppercase hover:italic;
+}
+.menu-open .header {
+  @apply z-9999 relative;
+}
+.menu-open .header .btn-olive {
+  @apply text-olive border-gray border-1 border-solid;
+}
+.menu-open .header .btn-link {
+  @apply text-white hover:text-white/50;
+}
+.menu-open .header .btn-link img {
+  filter: invert(100%) sepia(0%) saturate(7436%) hue-rotate(96deg) brightness(101%) contrast(104%);
+}
+/* .menu-open .menu-logo {
+  @apply block;
+} */
+.menu-open .sticky-logo {
+  @apply block;
+}
+.menu-open .header .menu-icon {
+  @apply mt-8;
+}
+.menu-open .header .menu-icon svg {
+  @apply w-25;
+}
+.menu-open .header .menu-icon svg rect {
+  @apply fill-white;
+}
+.menu-open .header .menu-icon svg:nth-child(1) {
+  @apply translate-y-1 rotate-45;
+}
+.menu-open .header .menu-icon svg:nth-child(2) {
+  @apply hidden;
+}
+.menu-open .header .menu-icon svg:nth-child(3) {
+  @apply -translate-y-6 -rotate-50;
+}
+.menu-open .header .top-navbar,
+.menu-open .header .logo,
+.menu-open .header .booknowbtn {
+  @apply hidden;
+}
+.menu-open .main-nav {
+  @apply p-0;
+}
+
+.footer .footer-navbar-top ul li a,
+.footer .footer-navbar-bottom ul li a {
+  @apply text-white uppercase font-normal tracking-05 hover:text-white/50;
+}
+.footer .footer-navbar-bottom ul li a {
+  @apply font-light text-body-4;
+}
+.footer .copyright ul li a {
+  @apply text-white text-body-4 tracking-05 font-light hover:text-white/50;
+}
+.footer .sicon a:hover {
+  @apply opacity-50;
+}
+.footer .newsletter-from form {
+  @apply flex flex-wrap items-start gap-10 max-1023:px-20 max-639:flex-col;
+}
+.footer .newsletter-from form .gform-body {
+  @apply w-[calc(100%_-_140px)] max-639:w-full;
+}
+.footer .newsletter-from form .gform-body .gform_fields {
+  @apply max-639:gap-20;
+}
+.footer .newsletter-from .gfield input {
+  @apply bg-transparent text-body-3 font-extralight tracking-05 border-1 border-solid border-gray-200 text-white rounded-10 outline-0 placeholder:text-gray-200;
+}
+.footer .newsletter-from .gform_footer {
+  @apply mt-0 max-639:mt-20 max-639:w-full;
+}
+.footer .newsletter-from .gform_footer input {
+  @apply !rounded-10 !border-1 !border-solid !border-white !bg-white !text-black italic hover:!bg-transparent hover:!text-white !text-body-4 !tracking-02 !uppercase max-639:!w-full;
+}
+#gform_ajax_spinner_1 {
+  @apply absolute -mt-60;
+}
+.footer .gform_validation_errors,
+.footer .gform_validation_errors span::before {
+  @apply !border-[#ff9c9c];
+}
+.footer .gform_validation_errors h2,
+.footer .gform_validation_errors span,
+.footer .gfield_validation_message {
+  @apply !text-[#ff9c9c];
+}
+
+.menu-open {
+  @apply overflow-hidden;
+}
+.menu-wrapper-content .img1 img,
+.menu-wrapper-content .img2 img {
+  @apply max-1365:max-w-200;
+}
